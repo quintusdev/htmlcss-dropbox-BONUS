@@ -30,20 +30,62 @@
                 <div class="col50hdr">
                     <div class="content">
                         <img src="./img/logo-small.png" alt="Logo Dropbox">
-                        <a href="#">Perche' Dropbox</a>
-                        <div class="contentmenu">
-                            
+                        <div class="firstmenu">
+                            <a href="#">Perche' Dropbox</a>
+                            <div id="first">
+                                <a>Applicazione Desktop</a>
+                                <a>Perche' Discord</a>
+                                <a>Piani</a>
+                                <a>Sicurezza</a>
+                                <a>funzioni</a>
+                            </div>
                         </div>
-                        <a href="#">Funzioni</a>
-                        <a href="#">Piani e prezzi</a>
+                        <div class="firstmenu">
+                            <a href="#">Funzioni</a>
+                            <div id="second">
+                                <a>Applicazione Desktop</a>
+                                <a>Perche' Discord</a>
+                                <a>Piani</a>
+                                <a>Sicurezza</a>
+                                <a>funzioni</a>
+                            </div>
+                        </div>
+                        <div class="firstmenu">
+                            <a href="#">Piani e Prezzi</a>
+                            <div id="third">
+                                <a>Applicazione Desktop</a>
+                                <a>Perche' Discord</a>
+                                <a>Piani</a>
+                                <a>Sicurezza</a>
+                                <a>funzioni</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
                 <!-- COLONNA DX -->
                 <div class="col50hdr">
                     <div class="content">
-                        <a href="#">Supporto</a>
-                        <a href="#">Contatta l'ufficio vendite</a>
+                        <div class="firstmenu">
+                            <a href="#">Supporto</a>
+                            <div id="sfirst">
+                                <a>Applicazione Desktop</a>
+                                <a>Perche' Discord</a>
+                                <a>Piani</a>
+                                <a>Sicurezza</a>
+                                <a>funzioni</a>
+                            </div>
+                        </div>
+                        <div class="firstmenu">
+                            <a href="#">Contatta l'ufficio vendite</a>
+                            <div id="ssecond">
+                                <a>Applicazione Desktop</a>
+                                <a>Perche' Discord</a>
+                                <a>Piani</a>
+                                <a>Sicurezza</a>
+                                <a>funzioni</a>
+                            </div>
+                        </div>
                         <a id="login" href="#">Accedi</a>
                         <a id="btn" href="#">Inizia</a>
                     </div>
@@ -64,6 +106,7 @@
                     <h1>Tutto cio' che ti serve per il <br>lavoro, in un unico posto</h1>
                 </div>   
                 <div class="rowjumbo2">
+                    <div class="colonna100">
                         <div class="col40">
                             <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto.
                             Dropbox Business e' piu' di uno spazio di archiviazione sicuro: e' un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.
@@ -75,6 +118,7 @@
                         <div class="col60">
                             <img src="./img/jumbo.png" alt="Immagine Jumbotron">
                         </div> 
+                    </div>
                 </div>
             </div>   
         </div>
@@ -86,8 +130,16 @@
                 <!-- INTESTAZIONE BUSINESS -->
                 <div class="rowbusiness1">
                     <h2 id="busi">Trova il piano business che fa per te</h2>
-                    <input class="radius" type="radio" name="mese" id="mese"><span>Fatturazione mensile</span>
-                    <input class="radius" type="radio" name="anno" id="anno"><span>Fatturazione annuale</span>
+                    <label class="containerradio">
+                        <input type="radio" checked="checked" name="radio">
+                        <span class="checkmark"></span>
+                        <span>Fatturazione mensile</span>
+                      </label>
+                      <label class="containerradio">
+                        <input type="radio" name="radio">
+                        <span class="checkmark"></span>
+                        <span>Fatturazione annuale</span>
+                      </label>
                 </div>
                 <!-- FINE INTESTAZIONE BUSINESS -->
                 <!-- INIZIO COLONNE PIANI -->
